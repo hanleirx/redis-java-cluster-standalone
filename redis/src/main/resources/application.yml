@@ -1,0 +1,18 @@
+spring:
+  redis:
+    host: ${redis_host:127.0.0.1}
+    password: ${redis_password:passw0rd}
+    port: ${redis_port:6379}
+#    cluster:
+#      ports:
+#        - 6379
+#        - 6379
+#        - 6379
+#      host: 127.0.0.1
+#      hosts:
+#        - 127.0.0.1
+#        - 127.0.0.1
+#        - 127.0.0.1
+#      poolConfig:
+#        max-wait-millis: -1
+#        min-idle: 0
