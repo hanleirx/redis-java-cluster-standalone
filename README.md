@@ -1,4 +1,4 @@
-# redis-java-cluster-standamone-
+# redis-java-cluster-standalone
 
 目前是standalone方式
 
